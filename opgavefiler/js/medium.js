@@ -14,7 +14,10 @@ myBuhButton.addEventListener('click',()=>{
 let myBalls=document.getElementsByClassName('balls');
 let myBuhTwoButton=document.getElementById('buhTwoButton');
 
-
+myBuhTwoButton.addEventListener('click',()=>{
+    for(const balls of myBalls)
+    balls.classList.toggle('animateRight');
+    });
 
 /*opgave 3*/
 
