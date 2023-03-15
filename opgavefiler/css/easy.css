@@ -27,7 +27,7 @@ animation-duration: 2s;
     transform: scale(120%);
   }
 }
-/* opgave 2*/
+/* opgave 2 - COMPLETE*/
 .popTwo{
   background-color: rgb(241, 206, 7);
 color:antiquewhite;
@@ -35,14 +35,25 @@ width: 100px;
 height: 100px;
 text-align: center;
 border-radius: 50px;
+animation-duration: 4s;
 }
 
 .popTwo:hover{
+  animation-name: popUpDown;
+  /* animation-fill-mode:both; */
+  animation-duration: 400ms;
+
+  animation-timing-function: ease;
 
 }
 
+@keyframes popUpDown {
+  0% {transform: scale(100%)}
+  50% {transform: scale(120%)}
+  100% {transform: scale(100%)}
+}
 
-
+/* opgave 3 - */
 
 .popThree{
   background-color: rgb(7, 90, 25);
