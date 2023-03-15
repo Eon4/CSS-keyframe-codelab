@@ -3,6 +3,9 @@
 let myBall=document.getElementById('ballOne');
 let myBuhButton=document.getElementById('buhOneButton');
 
+myBuhButton.addEventListener('click',()=>{
+    myBall.classList.toggle('animateRight');
+    });
 
 
 
