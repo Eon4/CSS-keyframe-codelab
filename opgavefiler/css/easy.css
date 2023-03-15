@@ -1,20 +1,33 @@
-/* opgave 1
+/* opgave 1 - COMPLETE
 */
 
 .pop{
-  background-color: red;
+background-color: red;
 color:antiquewhite;
 width: 100px;
 height: 100px;
 text-align: center;
 border-radius: 50px;
-
+animation-name: popUp;
+animation-duration: 2s;
 }
 
 .pop:hover{
- 
+  animation-name: popUp;
+  animation-duration: 400ms;
+  animation-fill-mode:both;
+  animation-timing-function: ease;
 }
 
+@keyframes popUp {
+  from {
+    transform:scale(0);
+  }
+  to {
+    transform: scale(120%);
+  }
+}
+/* opgave 2*/
 .popTwo{
   background-color: rgb(241, 206, 7);
 color:antiquewhite;
