@@ -26,6 +26,7 @@ let mybuhThreeButton = document.getElementById('buhThreeButton');
 
 mybuhThreeButton.addEventListener('click',()=>{
     let direction = "right";
+
     for(const OneSingleBalls of myhardBalls){
 
     if(direction == "right"){
@@ -33,13 +34,13 @@ mybuhThreeButton.addEventListener('click',()=>{
         direction = "left";
         
         }
-    else(
+    else{ 
         OneSingleBalls.classList.toggle('animateLeft');
         direction = "right";
-     )
-    
-    }
+     
+    }}
     });
+
     // for(const hardBalls of myhardBalls)
     // hardBalls.classList.toggle('animateRight');
 
