@@ -53,25 +53,33 @@ animation-duration: 4s;
   100% {transform: scale(100%)}
 }
 
-/* opgave 3 - */
+/* opgave 3 - COMPLETE*/
 
 .popThree{
-  background-color: rgb(7, 90, 25);
+background-color: rgb(7, 90, 25);
 color:antiquewhite;
 width: 100px;
 height: 100px;
 text-align: center;
 border-radius: 50px;
+animation-name: popThree;
+animation-iteration-count: infinite;
 }
 
 .popThree:hover{
  
   animation-duration: 500ms;
   animation-timing-function: ease;
+  animation-name: popThree;
+  animation-iteration-count: infinite;
 
 }
 
 
-
+@keyframes popThree {
+  0% {transform: scale(100%)}
+  50% {transform: scale(120%)}
+  100% {transform: scale(100%)}
+}
 
 
