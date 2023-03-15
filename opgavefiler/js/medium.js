@@ -41,13 +41,6 @@ mybuhThreeButton.addEventListener('click',()=>{
     }}
     });
 
-    // for(const hardBalls of myhardBalls)
-    // hardBalls.classList.toggle('animateRight');
-
-    // if(const hardBalls of myhardBalls)
-    // hardBalls.classList.toggle('animateLeft');
-
-    // });
 
 
 
