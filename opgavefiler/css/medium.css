@@ -65,16 +65,25 @@ text-align: center;
 border-radius: 50px;
 margin: 1rem;
 
-
 animation-duration: 400ms;
 animation-timing-function: ease-out;
 animation-fill-mode: both;
 
 }
 
+/* .hardBalls:hover{
+  animation-name: goRight;
+  animation-duration: 4s;
+} */
 
+.animateLeft{
+  animation-name: goLeft;
+}
 
+.animateRight{
 
+  animation-name: goRight;
+}
 
 @keyframes goRight{
   from {transform: translateX(0px)}

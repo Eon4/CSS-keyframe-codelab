@@ -21,7 +21,32 @@ myBuhTwoButton.addEventListener('click',()=>{
 
 /*opgave 3*/
 
+const myhardBalls = document.getElementsByClassName('hardBalls');
+let mybuhThreeButton = document.getElementById('buhThreeButton');
 
+mybuhThreeButton.addEventListener('click',()=>{
+    let direction = "right";
+    for(const OneSingleBalls of myhardBalls){
+
+    if(direction == "right"){
+        OneSingleBalls.classList.toggle('animateRight');
+        direction = "left";
+        
+        }
+    else(
+        OneSingleBalls.classList.toggle('animateLeft');
+        direction = "right";
+     )
+    
+    }
+    });
+    // for(const hardBalls of myhardBalls)
+    // hardBalls.classList.toggle('animateRight');
+
+    // if(const hardBalls of myhardBalls)
+    // hardBalls.classList.toggle('animateLeft');
+
+    // });
 
 
 
